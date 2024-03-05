@@ -36,6 +36,7 @@
             <podcast:transcript url="https://ableandthewolf.com/static/media/lyrics/04_StayAwhile.srt" type="application/srt" />
             <itunes:image href="https://pbs.twimg.com/profile_images/1566110862087278593/puLJTmxF_400x400.jpg" />
             <enclosure url="https://ableandthewolf.com/static/media/music/04_StayAwhile.mp3" length="8146730" type="audio/mpeg"/>
+            <itunes:duration>00:03:19</itunes:duration>
             <podcast:episode>1</podcast:episode>
             <podcast:person href="https://twitter.com/demu_emu" img="https://pbs.twimg.com/profile_images/1566110862087278593/puLJTmxF_400x400.jpg" group="music" role="band">Demu Emu</podcast:person>
             <podcast:person href="https://bowlafterbowl.com" img="https://ableandthewolf.com/static/media/spencer.9d14ce10e9cb3ccfba6b.jpg" group="writing" role="songwriter">SirSpencer</podcast:person>
