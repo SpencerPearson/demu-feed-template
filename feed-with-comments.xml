@@ -129,6 +129,10 @@
                 hosted mp3 file and change the length to the size of your mp3 in bytes.
                 For a list of common MIME types see https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types   -->
             <enclosure url="https://ableandthewolf.com/static/media/music/04_StayAwhile.mp3" length="8146730" type="audio/mpeg"/>
+            <!-- The "itunes:duration" tag defines the total duration of the enclosure file in HH:MM:SS format. It currently is required for Fountain Radio
+                  functionality, although most podcasting and decentralized music apps surface the duration directly from the file. As such, this tag was
+                  previously considered optional for decentralized music feeds, but should be included if you want your music to work in Fountain Radio. -->
+            <itunes:duration>00:03:19</itunes:duration>
             <!-- The "podcast:episode" tag describes an episode number. In decentralized music, we use this to describe an item's track number on the album.
                 Further reading: https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md#episode -->
             <podcast:episode>1</podcast:episode>
